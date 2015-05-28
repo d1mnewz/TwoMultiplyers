@@ -36,9 +36,9 @@ void showMapInFile(map<_int64, int> inputMap)
 int Result(int K)
 {
 		_int64 res = 1;
-		float t = clock(); // get current time so we can know time of compile of search part of program
 		vector<int> dividers; 
 		map<_int64, int> resultsMap; // digit, count of ways
+		float t = clock(); // get current time so we can know time of compile of search part of program
 
 		while (true) // endless loop
 		{
@@ -64,7 +64,7 @@ int Result(int K)
 				return res; // exit from while(true)
 			}
 			res++;
-	}
+		}
 }
 
 

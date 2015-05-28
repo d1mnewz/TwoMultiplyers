@@ -18,7 +18,7 @@ int get_times(int a)
 	return times;
 }
 
-int main()
+void main()
 {
 	int input = 0;
 
