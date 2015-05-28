@@ -71,6 +71,7 @@ int Result(int K)
 void main()
 {
 		int k;
+		//cout << (int)sqrt(5); 
 		cout << "Enter K: ";
 		cin >> k;
 		int N = Result(k);

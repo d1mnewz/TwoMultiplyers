@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 #include <cmath>
 
 using namespace std;
@@ -7,9 +6,9 @@ using namespace std;
 int get_times(int a)
 {
 	int i;
-	int div = (int)sqrt(a) ;
+	int div = (int)sqrt(a);
 	int times = 0;
-	for(i = 1;i <= div; i++)
+	for(i = 1; i <= div; i++)
 	{
 		if((a % i) == 0)
 		{
@@ -21,14 +20,14 @@ int get_times(int a)
 
 int main()
 {
-	int num;
+	int input = 0;
 
-	scanf("%d", &num);
-
+	cin << input // read input
 	int i = 2;
-	int t=0;
 
-	while(t!=num)
+	int t = 0;
+
+	while(t != input)
 	{
 		t = get_times(i);
 		i++;
